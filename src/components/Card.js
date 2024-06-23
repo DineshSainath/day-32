@@ -19,14 +19,14 @@ function Card({ id, title, brand, desc, price, thumbnail }) {
   return (
     <div className="card mb-3 shadow-sm">
       <div className="row g-0">
-        <div className="col-md-4 d-flex align-items-center justify-content-center p-3">
+        <div className="col-md-2 d-flex align-items-center justify-content-center p-3">
           <img
             src={thumbnail}
             className="thumbnail img-fluid rounded"
             alt={title}
           />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <div className="card-body d-flex justify-content-between align-items-start">
             <div className="desc-section">
               <h2 className="card-title">{title}</h2>

@@ -12,8 +12,8 @@ body {
 }
 
 .thumbnail {
-  width: 100%;
-  max-width: 150px;
+  width: 60%;
+  min-width: 70px;
   border-radius: 5px;
 }
 
